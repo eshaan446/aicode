@@ -212,7 +212,7 @@
                 <h4 class="my-0 fw-normal">Interview Starter Kit</h4>
               </div>
               <div class="card-body">
-                <h1 class="card-title pricing-card-title">Rs 5,999+GST<small class="text-muted fw-light">/mo</small>
+                <h1 class="card-title pricing-card-title">Rs 5,999<small class="text-muted fw-light">+GST</small>
                 </h1>
                 <ul class="list-unstyled mt-3 mb-4">
                   <li><i class="bi bi-dot"></i>Get 400+ interview questions from top tech companies.</li>
@@ -239,7 +239,7 @@
                 <h4 class="my-0 fw-normal">Crunch Time Kit</h4>
               </div>
               <div class="card-body">
-                <h1 class="card-title pricing-card-title">Rs 3,999+GST<small class="text-muted fw-light">/mo</small>
+                <h1 class="card-title pricing-card-title">Rs 3,999<small class="text-muted fw-light">+GST</small>
                 </h1>
                 <ul class="list-unstyled mt-3 mb-4">
                   <li><i class="bi bi-dot"></i>Get exclusive Interview Insights.</li>
@@ -365,7 +365,7 @@
               <div class="img-box"><img src="https://i.ibb.co/d5DY64w/img1.jpg" alt=""></div>
               <p class="testimonial">I started my career with AI Code and it turned out to be my best decision. If you
                 are an aspiring Data scientist and want to become an industry leader in this field. I highly recommend
-                AI Code to start your journey with AI Code.</p>
+                AI Code to start your journey.</p>
               <p class="overview"><b>Jennifer Smith</b>, AI Code Student</p>
             </div>
             <div class="item carousel-item">
@@ -391,8 +391,8 @@
   <!-- Footer -->
   <footer class="p-5 bg-dark text-white text-center position-relative" id="footer">
     <div class="container">
-      <h3>Ask a question</h3>
-      <p class="lead">Ask us anything and we'll revert with a detailed answer</p>
+      <h3>Ask a question ?</h3>
+      <p class="lead">Ask us anything and we'll revert with a detailed answer.</p>
       <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#enroll">Send Query</button>
       <p class="lead my-4">Copyright &copy; 2022 AI Code</p>
 
@@ -412,25 +412,29 @@
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
-          <p class="lead">Fill out this form and we will get back to you</p>
+          <p class="lead">Fill out this form and we will get back to you.</p>
           <form>
             <div class="mb-3">
               <label for="first-name" class="col-form-label">
                 First Name:
               </label>
-              <input type="text" class="form-control" id="first-name" />
+              <input type="text" class="form-control" id="first-name" required/>
             </div>
             <div class="mb-3">
               <label for="last-name" class="col-form-label">Last Name:</label>
-              <input type="text" class="form-control" id="last-name" />
+              <input type="text" class="form-control" id="last-name" required/>
             </div>
             <div class="mb-3">
               <label for="email" class="col-form-label">Email:</label>
-              <input type="email" class="form-control" id="email" />
+              <input type="email" class="form-control" id="email" required />
             </div>
             <div class="mb-3">
               <label for="phone" class="col-form-label">Phone:</label>
-              <input type="tel" class="form-control" id="phone" />
+              <input type="tel" class="form-control" id="phone" required/>
+            </div>
+            <div class="mb-3">
+              <label for="phone" class="col-form-label">Any Query: (optional)</label>
+              <textarea class="form-control" id="query"></textarea>
             </div>
           </form>
         </div>
@@ -438,7 +442,7 @@
           <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
             Close
           </button>
-          <button type="button" class="btn btn-primary">Submit</button>
+          <button type="submit" class="btn btn-primary">Submit</button>
         </div>
       </div>
     </div>
